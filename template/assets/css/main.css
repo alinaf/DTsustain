@@ -2034,7 +2034,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		footer.major {
+		/*footer.major {
 			border-bottom-width: 1px;
 			border-color: rgba(224, 224, 224, 0.75);
 			border-style: solid;
@@ -2042,9 +2042,9 @@ input, select, textarea {
 			margin-top: 6em;
 			padding: 4em 0;
 			position: relative;
-		}
+		}*/
 
-			footer.major:before, footer.major:after {
+			/*footer.major:before, footer.major:after {
 				background: rgba(224, 224, 224, 0.75);
 				content: '';
 				display: block;
@@ -2060,7 +2060,7 @@ input, select, textarea {
 
 			footer.major:after {
 				bottom: 10px;
-			}
+			}*/
 
 /* Form */
 
@@ -2781,33 +2781,34 @@ input, select, textarea {
 	#footer {
 		background-attachment: scroll;
 		background-color: #4eb980;
-		background-image: url("images/bottom-3200.svg");
-		background-position: top center;
-		background-repeat: repeat-x;
-		background-size: 3200px 460px;
-		color: rgba(255, 255, 255, 0.8);
+		/*background-image: url("images/bottom-3200.svg");*/
+		/*background-position: top center;
+		background-repeat: repeat-x;*/
+/*		background-size: px 200px;
+*/		color: rgba(255, 255, 255, 0.8);
 		/*
 			Since the SVG background occupies a lot of vertical space, we'll
 			add additional top padding (to move our content out of its way)
 			and a negative margin (to move everything up a bit).
 		*/
 
-		margin-top: -260px;
-		padding: calc(460px + 6em) 0 10em 0;
+		/*margin-top: -150px;*/
+		padding: 3em 11em;
+		/*padding: calc(460px + 6em) 0 10em 0;*/
 		position: relative;
 		text-align: center;
 	}
 
-		#footer:before {
+		/*#footer:before {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
-			height: calc(460px + 6em);
+			height: 20em;
 			left: 50%;
 			position: absolute;
 			top: 0;
 			width: 1px;
 			z-index: 0;
-		}
+		}*/
 
 		#footer a {
 			color: #ffffff;
@@ -2825,7 +2826,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 		}
 
-		#footer input[type="submit"],
+		/*#footer input[type="submit"],
 		#footer input[type="reset"],
 		#footer input[type="button"],
 		#footer .button {
@@ -2849,8 +2850,8 @@ input, select, textarea {
 		#footer textarea:focus {
 			border-color: #ffffff;
 		}
-
-		#footer .formerize-placeholder {
+*/
+		/*#footer .formerize-placeholder {
 			color: rgba(255, 255, 255, 0.3) !important;
 		}
 
@@ -2884,7 +2885,7 @@ input, select, textarea {
 
 					#footer .copyright li a:hover, #footer .copyright li span:hover {
 						color: #ffffff;
-					}
+					}*/
 
 /* Main */
 
@@ -3030,14 +3031,14 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-image: url("images/bottom-1600.svg");
+				/*background-image: url("images/bottom-1600.svg");
 				background-size: 1600px 230px;
-				margin-top: -100px;
-				padding: calc(230px + 4em) 0 6em 0;
+				margin-top: -100px;*/
+				padding: 1em 8em;
 			}
 
 				#footer:before {
-					height: calc(230px + 4em);
+					/*height: calc(230px + 4em);*/
 				}
 
 		/* Main */
@@ -3186,14 +3187,15 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-image: url("images/bottom-1280.svg");
+				/*background-image: url("images/bottom-1280.svg");
 				background-size: 1280px 184px;
 				margin-top: -75px;
-				padding: calc(184px + 2em) 0 2em 0;
+				padding: calc(184px + 2em) 0 2em 0;*/
+				padding: .5em 1em .5em 1em;
 			}
 
 				#footer:before {
-					height: calc(184px + 2em);
+					/*height: calc(184px + 2em);*/
 				}
 
 				#footer form {
@@ -3260,9 +3262,13 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-top: -100px;
-				padding-left: 1em;
-				padding-right: 1em;
+				/*margin-top: -100px;*/
+				padding-left: 3em;
+				padding-right: 3em;
+			}
+
+			#footer p {
+				font-size: .9em;
 			}
 
 				#footer .copyright li {
