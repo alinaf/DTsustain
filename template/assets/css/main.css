@@ -2272,15 +2272,178 @@ input, select, textarea {
 	}
 
 	/* Headline */
+
+	.headline {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
 	.headline h1 {
 		margin-top: 1em;
 		margin-bottom: 0.5em;
-		font-size: 2.4em;
+		font-size: 1.8em;
+		text-align: center;
+		color: #1B2D22;
 	}
 
-	.headline p {
+	.headline .deck p {
 		text-align: center;
 		font-size: 1.3em;
+		margin-bottom: 1em;
+	}
+
+	.headline .byline p {
+		font-size: 1em;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	/* Wide */
+
+	@media screen and (max-width: 1680px) {
+		.headline {
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+
+			.headline h1 {
+				margin-top: 1em;
+				margin-bottom: 0.5em;
+				font-size: 1.8em;
+				text-align: center;
+				color: #1B2D22;
+			}
+
+			.headline .deck p {
+				text-align: center;
+				font-size: 1.2em;
+				margin-bottom: 1em;
+			}		
+	}
+
+/* Normal */
+
+	@media screen and (max-width: 1400px) {
+		.headline {
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+
+			.headline h1 {
+				margin-top: 1em;
+				margin-bottom: 0.5em;
+				font-size: 1.6em;
+				text-align: center;
+				color: #1B2D22;
+			}
+
+			.headline .deck p {
+				text-align: center;
+				font-size: 1.1em;
+				margin-bottom: 1em;
+			}
+	}
+
+/* Narrow */
+
+	@media screen and (max-width: 1200px) {
+		.headline {
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+
+			.headline h1 {
+				margin-top: 1em;
+				margin-bottom: 0.5em;
+				font-size: 1.4em;
+				text-align: center;
+				color: #1B2D22;
+			}
+
+			.headline .deck p {
+				text-align: center;
+				font-size: 1em;
+				margin-bottom: 1em;
+			}
+	}
+
+/* Narrower */
+
+	@media screen and (max-width: 1100px) {
+
+			.headline {
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+
+			.headline h1 {
+				margin-top: 1em;
+				margin-bottom: 0.5em;
+				font-size: 1.3em;
+				text-align: center;
+				color: #1B2D22;
+			}
+
+			.headline .deck p {
+				text-align: center;
+				font-size: 1em;
+				margin-bottom: 1em;
+			}
+	}
+
+/* Mobile */
+
+	@media screen and (max-width: 670) {
+
+			.headline {
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+
+			.headline h1 {
+				margin-top: 1em;
+				margin-bottom: 0.5em;
+				font-size: 1.2em;
+				text-align: center;
+				color: #1B2D22;
+			}
+
+			.headline .deck p {
+				text-align: center;
+				font-size: 1em;
+				margin-bottom: 1em;
+			}
+	}
+
+/* Mobile (Portrait) */
+
+	@media screen and (max-width: 480px) {
+		.headline {
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+
+			.headline h1 {
+				margin-top: 1em;
+				margin-bottom: 0.5em;
+				font-size: 1em;
+				text-align: center;
+				color: #1B2D22;
+			}
+
+			.headline .deck p {
+				text-align: center;
+				font-size: 1em;
+				margin-bottom: 1em;
+			}
+
+			.headline .byline p {
+				font-size: 1em;
+				margin-top: 0px;
+				text-align: center;
+			}
+		
+
 	}
 
 	/* Story body */
