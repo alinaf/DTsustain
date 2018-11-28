@@ -2760,7 +2760,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: #544d55;
+		background: #33463A;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2781,7 +2781,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #6e6570;
+			background: #788688;
 		}
 
 		input[type="submit"]:active,
@@ -2934,6 +2934,12 @@ input, select, textarea {
 
 		.feature.long .content {
 			padding-top: 0;
+		}
+
+
+		.logocircle {
+			width: 100px;
+			text-align: center;
 		}
 
 /* Header */
