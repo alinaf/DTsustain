@@ -2816,6 +2816,7 @@ input, select, textarea {
 		font-family: 'Archivo', sans-serif;
 		background-attachment: scroll;
 		background-color: #4eb980;
+		letter-spacing: .1em;
 		/*background-image: url("images/bottom-3200.svg");*/
 		/*background-position: top center;
 		background-repeat: repeat-x;*/
@@ -2874,66 +2875,6 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 		}
 
-		/*#footer input[type="submit"],
-		#footer input[type="reset"],
-		#footer input[type="button"],
-		#footer .button {
-			background: #ffffff;
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
-		}
-
-			#footer input[type="submit"]:hover,
-			#footer input[type="reset"]:hover,
-			#footer input[type="button"]:hover,
-			#footer .button:hover {
-				background: rgba(224, 224, 224, 0.15);
-				color: #ffffff;
-			}
-
-		#footer input[type="text"]:focus,
-		#footer input[type="password"]:focus,
-		#footer input[type="email"]:focus,
-		#footer select:focus,
-		#footer textarea:focus {
-			border-color: #ffffff;
-		}
-*/
-		/*#footer .formerize-placeholder {
-			color: rgba(255, 255, 255, 0.3) !important;
-		}
-
-		#footer form {
-			margin: 3em 0;
-		}
-
-		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8em;
-			line-height: 1em;
-			margin: 3em 0 0 0;
-		}
-
-			#footer .copyright li {
-				border-left: dotted 1px;
-				display: inline-block;
-				margin-left: 1em;
-				padding-left: 1em;
-			}
-
-				#footer .copyright li:first-child {
-					padding: 0;
-					margin: 0;
-					border: 0;
-				}
-
-				#footer .copyright li a, #footer .copyright li span {
-					color: inherit;
-				}
-
-					#footer .copyright li a:hover, #footer .copyright li span:hover {
-						color: #ffffff;
-					}*/
 
 /* Main */
 
@@ -2997,6 +2938,11 @@ input, select, textarea {
 					font-size: 1.25em;
 					line-height: 1.65em;
 				}
+
+	/* Footer */
+	#footer p {
+		font-size: .9em;
+	}
 
 	}
 
