@@ -1,6 +1,10 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 @import url('https://fonts.googleapis.com/css?family=Average|Fira+Sans:500,400');
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 /*
 	Directive by HTML5 UP
 	html5up.net | @ajlkn
@@ -103,7 +107,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #6e6e6e;
-		font-family: 'Average', serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -143,8 +147,9 @@ input, select, textarea {
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
+		letter-spacing: 5px;
 		text-align: center;
-		font-family: 'Fira Sans', sans-serif;
+		font-family: 'Archivo', sans-serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -243,6 +248,10 @@ input, select, textarea {
 				width: 100% !important;
 			}
 
+		}
+
+		#banner {
+			width: 100%;
 		}
 
 /* Row */
@@ -1972,7 +1981,7 @@ input, select, textarea {
 			position: relative;
 			top: -1em;
 			color: #888888;
-			text-transform: uppercase;
+			/*text-transform: uppercase;*/
 			letter-spacing: 0.075em;
 		}
 
@@ -2073,7 +2082,7 @@ input, select, textarea {
 		font-weight: 700;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		margin: 0 0 0.5em 0;
 	}
 
@@ -2715,7 +2724,7 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/speck.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2804,7 +2813,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		font-family: 'Fira Sans', sans-serif;
+		font-family: 'Archivo', sans-serif;
 		background-attachment: scroll;
 		background-color: #4eb980;
 		/*background-image: url("images/bottom-3200.svg");*/
