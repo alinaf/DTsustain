@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Permanent+Marker');
+
 
 /*
 	Directive by HTML5 UP
@@ -2452,6 +2454,22 @@ input, select, textarea {
 			}
 		
 
+	}
+
+	/* Signature */
+	.signature h5{
+		font-family: 'Homemade Apple', cursive;
+		text-transform: none;
+		margin-bottom: 0px;
+		font-size: 2em;
+		text-align: center;
+		letter-spacing: 0em;
+	}
+
+	.signature h6 {
+		font-family: Archivo, sans-serif;
+		text-align: center;
+		font-size: .9em;
 	}
 
 	/* Story body */
