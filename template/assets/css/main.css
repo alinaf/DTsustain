@@ -2080,6 +2080,14 @@ input, select, textarea {
 	width: 100%;
 }
 
+.banner a {
+	border-bottom: none;
+}
+
+.banner.bottom {
+	padding-bottom: 0px;
+}
+
 
 /* Form */
 
@@ -2455,6 +2463,25 @@ input, select, textarea {
 	/*	text-align: center;*/
 		font-size: 1.1em;
 	}
+
+	.storyBody img {
+		width: 100%;
+	}
+
+	.caption p {
+		font-size: .8em;
+	}
+
+	.firstcharacter {
+	  color: #1B2D22;
+	  float: left;
+	  font-family: Archivo, sans-serif;
+	  font-size: 75px;
+	  line-height: 60px;
+	  padding-top: 4px;
+	  padding-right: 8px;
+	  padding-left: 3px;
+}
 
 
 /* Icon */
@@ -2984,6 +3011,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
+		margin-top: -20px;
 		font-family: 'Archivo', sans-serif;
 		background-attachment: scroll;
 /*		background-color: #4eb980;
