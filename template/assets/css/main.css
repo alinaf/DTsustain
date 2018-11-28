@@ -91,7 +91,9 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		/*background: #ffffff;*/
+		background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -141,7 +143,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5b5b5b;
+		color: #1B2D22;
 		font-weight: 700;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
@@ -2195,7 +2197,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			background-color: #1B2D22;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2262,7 +2264,7 @@ input, select, textarea {
 			}
 
 			.image.icon:hover:after {
-				opacity: 1;
+				opacity: .8;
 			}
 
 	span.image.icon {
@@ -2821,7 +2823,8 @@ input, select, textarea {
 	#footer {
 		font-family: 'Archivo', sans-serif;
 		background-attachment: scroll;
-		background-color: #4eb980;
+/*		background-color: #4eb980;
+*/		background-color: #1B2D22;
 		letter-spacing: .1em;
 		/*background-image: url("images/bottom-3200.svg");*/
 		/*background-position: top center;
