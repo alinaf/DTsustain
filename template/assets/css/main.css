@@ -2073,6 +2073,12 @@ input, select, textarea {
 				bottom: 10px;
 			}*/
 
+/* Banner */
+.banner img {
+	width: 100%;
+}
+
+
 /* Form */
 
 	label {
