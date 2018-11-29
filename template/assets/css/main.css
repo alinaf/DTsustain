@@ -2501,6 +2501,43 @@ input, select, textarea {
 	  padding-left: 3px;
 }
 
+.biggerphoto {
+	text-align: center;
+}
+
+.biggerphoto .left {
+	float: left;
+}
+
+.biggerphoto .right {
+	float: right;
+}
+
+.biggerphoto img{
+	width: 80%;
+	text-align: center;
+}
+
+.biggerphoto p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+@media screen and (max-width: 736px) {
+	.biggerphoto img {
+		width: 100%;
+	}
+
+	.biggerphoto p {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.storyBody {
+		margin: 0 15%;
+	}
+}
+
 
 /* Icon */
 
