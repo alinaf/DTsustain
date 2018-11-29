@@ -188,6 +188,12 @@ input, select, textarea {
 		margin-bottom: 1.5em;
 	}
 
+	.bighr{
+		background-color: #26372C;
+		height: 5px;
+		border: solid 2px ##26372C;
+	}
+
 	blockquote {
 		border-left: solid 0.5em rgba(51, 70, 58, 0.75);
 		padding: 1em 0 1em 2em;
