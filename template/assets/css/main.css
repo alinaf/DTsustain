@@ -2502,6 +2502,7 @@ input, select, textarea {
 
 	.caption p {
 		font-size: .8em;
+		text-align: center;
 	}
 
 	.firstcharacter {
