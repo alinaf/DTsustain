@@ -2520,12 +2520,12 @@ input, select, textarea {
 	text-align: center;
 }
 
-.biggerphoto .left {
-	float: left;
+.verticalphoto {
+	text-align: center;
 }
 
-.biggerphoto .right {
-	float: right;
+.verticalphoto img {
+	width: 40%;
 }
 
 .biggerphoto img{
@@ -2536,6 +2536,34 @@ input, select, textarea {
 .biggerphoto p {
 	margin-left: 10%;
 	margin-right: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+
+	.verticalphoto img {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+
+	.verticalphoto img {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.verticalphoto img {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.verticalphoto img {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 736px) {
