@@ -189,9 +189,9 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.5em rgba(224, 224, 224, 0.75);
-		font-style: italic;
+		border-left: solid 0.5em rgba(51, 70, 58, 0.75);
 		padding: 1em 0 1em 2em;
+		font-weight: bold;
 	}
 
 /* Container */
@@ -2464,6 +2464,7 @@ input, select, textarea {
 		font-size: 2em;
 		text-align: center;
 		letter-spacing: 0em;
+		color: #3C4D3E;
 	}
 
 	.signature h6 {
@@ -2484,6 +2485,13 @@ input, select, textarea {
 
 	.storyBody img {
 		width: 100%;
+	}
+
+	.bigtitle h5 {
+		font-size: 1.8em;
+		font-weight: bolder;
+		font-family: 'Archivo', sans-serif;
+		color: #3C4D3E;
 	}
 
 	.caption p {
