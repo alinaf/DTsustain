@@ -78,6 +78,24 @@ input, select, textarea {
 	appearance: none;
 }
 
+#wasteVid {
+	text-align: center;
+}
+
+#wasteVid iframe {
+	width: 60%;
+	height: 500px;
+}
+
+@media screen and (max-width: 980px) {
+
+	#wasteVid iframe {
+		width: 100%;
+		height: 400px;
+	}
+
+}
+
 /* Basic */
 
 	html {
