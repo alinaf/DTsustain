@@ -2543,7 +2543,7 @@ input, select, textarea {
 }
 
 .verticalphoto img {
-	width: 40%;
+	width: 60%;
 }
 
 .biggerphoto img{
@@ -2559,21 +2559,21 @@ input, select, textarea {
 @media screen and (max-width: 1000px) {
 
 	.verticalphoto img {
-		width: 60%;
+		width: 80%;
 	}
 }
 
 @media screen and (max-width: 650px) {
 
 	.verticalphoto img {
-		width: 70%;
+		width: 90%;
 	}
 }
 
 @media screen and (max-width: 600px) {
 
 	.verticalphoto img {
-		width: 90%;
+		width: 100%;
 	}
 }
 
